@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.2.0\959c454243581fdf730abfd4f4745441724bcf2c\okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\okhttp-2.2.0-c943fd42bf5ae1c989aa0c454346a9208f50e680.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7372378dec00f25c04714a058617e515858273c8">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-092a71c7460e9eef0987b19ddad62442acab3edb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\retrofit-1.9.0-70554e1b9c443cde97721c936a51456bf7354728.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-81e95a8cdc33fca6886f5fe134c9c2aff05bf79e.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.github.castorflex.verticalviewpager\library\19.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cac65d41873c63e90b9406c9dbccc05b15113c45">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-e522264f3439f046f14e85dcde3bfc98cbf8b019.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\gson-2.3.1-e7e1b50ae29d172e03be0f6603738eee34dfb095.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-861dc9e97b74785d7b2740e018fea9ffc31b1243.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-ed9d99cd3b81f8507508242148dc211136d07857.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\picasso-2.5.2-a146057a5f6fbd01996eb52cf0a2cf95d97f53a8.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-74181638f8b58fc35e84b38e299b95667651b0e7.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6b10c176f69989e843c3ee383e831f76a3d56286">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-5eefbd258904976484103e8f7b49f61f57b9870a.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.digits.sdk.android\digits\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b339038431d5d22d171200b16256be0ee43629fe">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-b6163705cbb1148ee176c52e354c1dba2b003f59.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-composer\0.7.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69bf5d59b95eb91b9d17ddb3f0725a4ff499197e">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-3bb1d58fc071ebd1d9da59cca29deb3e3bf5285f.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\gcm-3586b3544b3e5c48c7675c280278a570bad91ed8.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-00ddac0462d23021edf46afb35d2ba794e8af440.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.amplitude\android-sdk\1.6.2\db8a7291bd2563f5a5699f5c48552c2927a9f2d4\android-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db8a7291bd2563f5a5699f5c48552c2927a9f2d4">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\android-sdk-1.6.2-759904035293164d769c72d391fe4dd7a5c2eeba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-1117e242bfd161ddf75cfd7dcca186bd48888179.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\libs\joda-time-2.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5599707a3eaad13e889f691b3af78c8c03842195">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\joda-time-2.7-41979bddf743c59237ac5c7a5d3cde6ff02a4154.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\libs\android-query-full.0.26.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4055bed8ed6f6aa573fa3e7d979c66101c48e182">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\android-query-full.0.26.7-f2e799f5d4673b4465b79793b072f8d637045381.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-703b7913d3931826f5d101639925df1a23961c00.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.2.0\c0b52915a48fa91b1b94a28d4a2997bac5f524df\okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\okio-1.2.0-a84356fa2482b64758717a0d3460fc3b9906d07e.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.twitter.cobalt\performance-metrics\0.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39a316349636281051561b9abb23fdd6a2b17061">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-e16f211e0c8516e732ed6be99eef60381e99884c.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.twitter.sdk.android\tweet-ui\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="843db3fa17c6685a59ffd0c681ca101b362320d0">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-eb217df75a17c5c87c99f3c1c142a9da2d6cc8db.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.twitter.sdk.android\twitter-core\1.3.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95572f3786e72656b3ae2e15955def2234242207">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-771ed174cf33f4c1f6c35483cf5af39b913a486f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0fd7922ae5ca0b37bdc4274bb9c3228faeb9c4b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Zhao\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-80e1ff8b963dfb8bcefc00b2bc02e26e3b816b6a.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\exploded-aar\com.droidux.widgets\galleryflow-pro\3.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="650038210826b6637441799e1648baffb43afc87">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\classes-d0b351a74ffb9a18d2b9482b6b5c73dacc1c72f2.jar" />
+    </item>
+    <item
+        jar="G:\Workspace\Android\Vizo\Sources\vizoAndroid\libs\droidux-core-pro-3.0.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a5fba2e993fe2b8ba0b255d415da5cb04cd12e11">
+        <dex dex="G:\Workspace\Android\Vizo\Sources\vizoAndroid\build\intermediates\pre-dexed\debug\droidux-core-pro-3.0.6-111976ac2e3bb45c550b85c92e2c814641b94e62.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android-sdk-1.6.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/1.6.2/db8a7291bd2563f5a5699f5c48552c2927a9f2d4/android-sdk-1.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amplitude/android-sdk/1.6.2/d9a07daff4ab2ea0064524faa08e473d80b89770/android-sdk-1.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

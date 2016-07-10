@@ -1,0 +1,65 @@
+int attr duxglr_animationDuration 0x7f010000
+int attr duxglr_antialiasing 0x7f01000e
+int attr duxglr_cameraZ 0x7f010004
+int attr duxglr_distanceMaxEffect 0x7f010002
+int attr duxglr_edgeAngle 0x7f010006
+int attr duxglr_galleryStyle 0x7f01000f
+int attr duxglr_galleryflowCarouselStyle 0x7f010013
+int attr duxglr_galleryflowCoverStyle 0x7f010010
+int attr duxglr_galleryflowScaleStyle 0x7f010012
+int attr duxglr_galleryflowZoomStyle 0x7f010011
+int attr duxglr_maxRotationAngle 0x7f010003
+int attr duxglr_scale 0x7f010005
+int attr duxglr_spacing 0x7f010001
+int attr duxglr_viewEffect_maxstrength 0x7f01000d
+int attr duxglr_viewEffect_type 0x7f01000c
+int attr duxglr_viewPoint 0x7f010007
+int attr duxglr_withReflection 0x7f010008
+int attr duxglr_withReflection_gap 0x7f010009
+int attr duxglr_withReflection_height 0x7f01000b
+int attr duxglr_withReflection_strength 0x7f01000a
+int drawable gallery_demo_item 0x7f020000
+int id antialiasing 0x7f050002
+int id custom 0x7f050003
+int id dim 0x7f050004
+int id fade 0x7f050005
+int id fade_dim 0x7f050006
+int id image 0x7f050008
+int id inside 0x7f050000
+int id none 0x7f050007
+int id outside 0x7f050001
+int layout editmode_content 0x7f030000
+int style DuxGallery 0x7f040000
+int style DuxGallery_GalleryFlow 0x7f040002
+int style DuxGallery_GalleryFlow_Linear 0x7f040003
+int style DuxGallery_GalleryFlow_Linear_Coverflow 0x7f040004
+int style DuxGallery_GalleryFlow_Linear_Scale 0x7f040006
+int style DuxGallery_GalleryFlow_Linear_Zoomflow 0x7f040005
+int style DuxGallery_GalleryFlow_Radial 0x7f040007
+int style DuxGallery_GalleryFlow_Radial_In 0x7f040009
+int style DuxGallery_GalleryFlow_Radial_Out 0x7f040008
+int style DuxGallery_Standard 0x7f040001
+int style DuxGallery_ViewEffectLayout 0x7f04000a
+int[] styleable DuxAbsSpinner { }
+int[] styleable DuxGallery { 0x7f010000, 0x7f010001 }
+int styleable DuxGallery_duxglr_animationDuration 0
+int styleable DuxGallery_duxglr_spacing 1
+int[] styleable DuxGallery_GalleryFlowView { 0x7f010002 }
+int styleable DuxGallery_GalleryFlowView_duxglr_distanceMaxEffect 0
+int[] styleable DuxGallery_GalleryFlowView_Linear { 0x7f010003 }
+int styleable DuxGallery_GalleryFlowView_Linear_duxglr_maxRotationAngle 0
+int[] styleable DuxGallery_GalleryFlowView_Linear_Scale { 0x7f010005 }
+int styleable DuxGallery_GalleryFlowView_Linear_Scale_duxglr_scale 0
+int[] styleable DuxGallery_GalleryFlowView_Linear_Zoom { 0x7f010004 }
+int styleable DuxGallery_GalleryFlowView_Linear_Zoom_duxglr_cameraZ 0
+int[] styleable DuxGallery_GalleryFlowView_Radial { 0x7f010006, 0x7f010007 }
+int styleable DuxGallery_GalleryFlowView_Radial_duxglr_edgeAngle 0
+int styleable DuxGallery_GalleryFlowView_Radial_duxglr_viewPoint 1
+int[] styleable DuxGallery_ViewEffectLayout { 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e }
+int styleable DuxGallery_ViewEffectLayout_duxglr_antialiasing 6
+int styleable DuxGallery_ViewEffectLayout_duxglr_viewEffect_maxstrength 5
+int styleable DuxGallery_ViewEffectLayout_duxglr_viewEffect_type 4
+int styleable DuxGallery_ViewEffectLayout_duxglr_withReflection 0
+int styleable DuxGallery_ViewEffectLayout_duxglr_withReflection_gap 1
+int styleable DuxGallery_ViewEffectLayout_duxglr_withReflection_height 3
+int styleable DuxGallery_ViewEffectLayout_duxglr_withReflection_strength 2

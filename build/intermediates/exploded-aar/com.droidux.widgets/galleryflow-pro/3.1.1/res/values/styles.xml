@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2011-2014 Ximpl
+  ~ All Rights Reserved. This program and the accompanying materials
+  ~ are owned by Ximpl or its suppliers.  The program is protected by
+  ~ international copyright laws and treaty provisions.
+  ~ Any violation will be prosecuted under applicable laws.
+  ~ NOTICE: The following is Source Code and is subject to all
+  ~ restrictions on such code as contained in the End User License Agreement
+  ~ accompanying this product.
+  -->
+
+<resources>
+    <style name="DuxGallery" />
+    <style name="DuxGallery.Standard">
+        <item name="android:gravity">center_vertical</item>
+        <item name="duxglr_spacing">-20dip</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow" />
+    <style name="DuxGallery.GalleryFlow.Linear">
+        <item name="duxglr_animationDuration">500</item>
+        <item name="duxglr_spacing">0dip</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Linear.Coverflow">
+        <item name="duxglr_distanceMaxEffect">0.7</item>
+        <item name="duxglr_spacing">-10dip</item>
+        <item name="duxglr_maxRotationAngle">-60</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Linear.Zoomflow">
+        <item name="duxglr_cameraZ">400</item>
+        <item name="duxglr_spacing">-30dip</item>
+        <item name="duxglr_maxRotationAngle">-60</item>
+        <item name="duxglr_distanceMaxEffect">0.4</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Linear.Scale">
+        <item name="duxglr_spacing">0dip</item>
+        <item name="duxglr_distanceMaxEffect">0.4</item>
+        <item name="duxglr_scale">0.75</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Radial">
+        <item name="duxglr_cameraZ">0</item>
+        <item name="android:animationDuration">500</item>
+        <item name="duxglr_spacing">10dip</item>
+        <item name="duxglr_edgeAngle">30</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Radial.Out">
+        <item name="duxglr_viewPoint">outside</item>
+    </style>
+    <style name="DuxGallery.GalleryFlow.Radial.In">
+        <item name="duxglr_viewPoint">inside</item>
+    </style>
+
+
+    <!-- View effect -->
+    <style name="DuxGallery.ViewEffectLayout">
+        <item name="duxglr_withReflection">true</item>
+        <item name="duxglr_withReflection_gap">2dp</item>
+        <item name="duxglr_withReflection_strength">0.4</item>
+        <item name="duxglr_withReflection_height">0.4</item>
+        <item name="duxglr_spacing">-20dip</item>
+        <item name="duxglr_viewEffect_type">none</item>
+        <item name="duxglr_viewEffect_maxstrength">0.5</item>
+    </style>
+
+</resources>

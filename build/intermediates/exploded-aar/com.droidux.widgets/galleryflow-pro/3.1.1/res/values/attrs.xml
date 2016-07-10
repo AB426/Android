@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2011-2014 Ximpl
+  ~ All Rights Reserved. This program and the accompanying materials
+  ~ are owned by Ximpl or its suppliers.  The program is protected by
+  ~ international copyright laws and treaty provisions.
+  ~ Any violation will be prosecuted under applicable laws.
+  ~ NOTICE: The following is Source Code and is subject to all
+  ~ restrictions on such code as contained in the End User License Agreement
+  ~ accompanying this product.
+  -->
+
+<resources>
+
+    <declare-styleable name="DuxAbsSpinner" include="android:entries" />
+
+    <declare-styleable name="DuxGallery" include="android:gravity">
+        <!-- Sets how long a transition animation should run (in milliseconds)
+when layout has changed. Only relevant if animation is turned on. -->
+        <attr name="duxglr_animationDuration" format="integer" min="0"/>
+        <attr name="duxglr_spacing" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="DuxGallery.GalleryFlowView">
+        <!--
+          @attr name duxglr_distanceMaxEffect
+          @attr description
+          Specifies the factor to calculate the distance from the center of the gallery, where all effects start to reach the
+          maximum values. Must be between <code>0.0</code> - <code>1.0</code>.
+          <p>
+          The selected (center-locked) view is the frontmost view, where all distance-related effects will have the minimum value/strength.
+          The further the view from the center, the greater the strength of the effect will be, like the rotation angle, opacity/alpha, scale, zoom, etc.
+          The maximum effect will be reached when the absolute x-axis distance of the view from the center of the gallery reached
+          a certain distance as calculated using the value of this attribute.
+          <p>
+          <strong>Example:</strong> In a gallery with a horizontal (x-axis) width of 320 px, and the <code>duxglr_distanceMaxEffect</code> set to <code>0.5</code>,
+          a view will have a maximum effect at a distance of <code>0.5 x (320/2)</code>, which is <code>80px</code> from the center of the gallery. So, a view which
+          have an x-coordinate less than (160-80) and more than (160+80) will have a maximum effect.
+        -->
+        <attr name="duxglr_distanceMaxEffect" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DuxGallery.GalleryFlowView.Linear">
+        <!--
+         @attr name duxglr_maxRotationAngle
+         @attr description
+         Specifies the maximum rotation angle of a view in a <code>GalleryFlow</code> widget.  This angle will be reached when the distance of the view to the center
+         of the gallery reached a certain value as calculated using the value of <code>duxglr_distanceMaxEffect</code> attribute.
+
+        -->
+        <attr name="duxglr_maxRotationAngle" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="DuxGallery.GalleryFlowView.Linear.Zoom" >
+        <!--
+         @attr name duxglr_cameraZ
+         @attr description
+         Specifies the maximum distance in the z-axis of the {@link android.graphics.Camera}, from the screen to the 'farthest' view, in a <code>GalleryFlow</code> widget.
+         <p>
+         The selected (center-locked) view is the frontmost view, with z coordinate of <code>0f</code>.  The further the view from the center,
+         the greater the z coordinate.  The maximum z distance will be reached when the absolute distance of the view from the center of the gallery reached
+         a certain distance as specified by the <code>duxglr_distanceMaxEffect</code> attribute. </p>
+
+        -->
+        <attr name="duxglr_cameraZ" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="DuxGallery.GalleryFlowView.Linear.Scale">
+        <!--
+         @attr name duxglr_scale
+         @attr description
+         Specifies the maximum scale factor of a view in a {@link com.droidux.ui.widgets.gallery.GalleryFlowScale} widget.
+         The selected (center-locked) view is the frontmost view, with scale factor of <code>1f</code>.  The further the view from the center,
+         the scale factor will be prorated until it reach the "maximum" (or minimum, depends on whether it's scaled up or down) value.  The maximum scale value will be reached
+         when the absolute distance of the view from the center of the gallery reached
+         a certain distance as specified by the <code>duxglr_distanceMaxEffect</code> attribute.
+        -->
+        <attr name="duxglr_scale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="DuxGallery.GalleryFlowView.Radial">
+        <!--
+         @attr name duxglr_edgeAngle
+         @attr description
+         Specifies the rotation angle (in degrees) of outermost/edge view in a <code>GalleryFlow</code> with a radial flow/path, such as the
+         {@link com.droidux.ui.widgets.gallery.GalleryFlowCarousel}.
+         This angle will determine the curvature of the flow.
+         <p>
+         Range: 0-60
+         </p>
+        -->
+        <attr name="duxglr_edgeAngle" format="integer" />
+
+        <!--
+         @attr name duxglr_viewPoint
+         @attr description
+         Specifies the view point when looking at the <code>GalleryFlow</code> widget with a radial flow/path, such as the
+         {@link com.droidux.ui.widgets.gallery.GalleryFlowCarousel}.
+        -->
+        <attr name="duxglr_viewPoint">
+            <!--Looking at the <code>GalleryFlow</code> from inside. -->
+            <enum name="inside" value="0" />
+            <!-- Looking at the <code>GalleryFlow</code> from outside. -->
+            <enum name="outside" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="DuxGallery.ViewEffectLayout">
+
+        <!--
+        @attr name duxglr_withReflection
+        @attr description
+            Controls whether the view should be reflected. Default is <code>true</code>.
+        -->
+        <attr name="duxglr_withReflection" format="boolean"/>
+        <!--
+        @attr name duxglr_withReflection_gap
+        @attr description
+            Specifies the distance from the bottom of the reflected view to the "floor".
+            Its value should be a dimension (such as "5dip").
+        -->
+        <attr name="duxglr_withReflection_gap" format="dimension"/>
+        <!--
+        @attr name duxglr_withReflection_strength
+        @attr description
+        Specifies the strength of the reflection. This value is a factor that determines the opacity/alpha of the reflection.
+        Should be between 0.0 - 1.0 inclusive.
+        -->
+        <attr name="duxglr_withReflection_strength" format="float"/>
+        <!--
+        @attr name duxglr_withReflection_height
+        @attr description
+        Specifies the factor to determine the reflection height.  The reflection height will be the specified factor multiplied by the view's {@link android.view.View#getHeight()}.
+        Should be between 0.0 - 1.0 inclusive.
+        -->
+        <attr name="duxglr_withReflection_height" format="float"/>
+        <!--
+        @attr name duxglr_viewEffect_type
+        @attr description
+         Specifies the effect to be applied to the view.
+        -->
+        <attr name="duxglr_viewEffect_type">
+            <!--Don't apply any effect. -->
+            <enum name="none" value="0" />
+            <!--Apply a <em>antialiasing</em> effect.  The <em>antialiasing</em> will draw the view with antialiasing paint. This effect is useful only if
+            reflection is disabled. When reflection is enabled, the view will always be drawn with antialiasing paint.-->
+            <enum name="antialiasing" value="1" />
+            <!--Apply a <em>dim</em> effect.  The <em>dim</em> effect will make the view desaturated.-->
+            <enum name="dim" value="2" />
+            <!--Apply a <em>fade</em> effect.  The <em>fade</em> effect will change the opacity/alpha of the view.-->
+            <enum name="fade" value="3" />
+            <!--Apply both the <em>fade</em> and <em>dim</em> effects.-->
+            <enum name="fade_dim" value="4" />
+            <!--Apply a custom effect. You must supply an implementation of {@link com.droidux.ui.widgets.gallery.ViewEffectLayout.ViewEffect}. -->
+            <enum name="custom" value="5" />
+        </attr>
+        <!--
+         @attr name duxglr_viewEffect_maxstrength
+        @attr description
+        Specifies the strength of the effect to be apply to the view (see the <code>duxglr_viewEffect_type</code> attribute).
+        Should be between 0.0 - 1.0 inclusive.
+        -->
+        <attr name="duxglr_viewEffect_maxstrength" format="float" />
+
+        <!--
+        @attr name duxglr_antialiasing
+        @attr description
+        If <code>true</code>, this layout will be drawn using
+        an anti-alias paint, which will give better quality,
+        but use more resources. Default is <code>true</code>.
+        -->
+        <attr name="duxglr_antialiasing" format="boolean" />
+    </declare-styleable>
+
+
+    <!-- themes -->
+    <!-- Default Gallery style. -->
+    <attr name="duxglr_galleryStyle" format="reference"/>
+    <attr name="duxglr_galleryflowCoverStyle" format="reference" />
+    <attr name="duxglr_galleryflowZoomStyle" format="reference" />
+    <attr name="duxglr_galleryflowScaleStyle" format="reference" />
+    <attr name="duxglr_galleryflowCarouselStyle" format="reference" />
+
+
+</resources>
